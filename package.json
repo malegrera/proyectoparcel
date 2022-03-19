@@ -2,6 +2,7 @@
   "name": "my-project",
   "source": "src/index.html",
   "scripts": {
+    "parcel:serve": "parcel src/index.html -p 8123 --open",
     "start": "parcel",
     "build": "parcel build"
   },
