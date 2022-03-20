@@ -15,6 +15,7 @@
       "publicUrl": "./",
       "engines": {
         "browsers": "last 2 versions, > 0.5%, not dead"
+        // https://github.com/browserslist/browserslist#best-practices
       }
     }
   },
