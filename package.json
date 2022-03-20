@@ -2,12 +2,25 @@
   "name": "my-project",
   "source": "src/index.html",
   "scripts": {
-    "parcel:serve": "parcel src/index.html -p 8123 --open",
+    "parcel:serve": "parcel src/index.html --target web -p 8123 --open",
     "start": "parcel",
-    "build": "parcel build"
+    "clean": "rimraf dist .cache .cache-loader .parcel-cache",
+    "dev": "npm-run-all clean parcel:serve",
+    "build": "npm-run-all clean parcel:build"
+  },
+  "web": "dist/index.html",
+  "targets": {
+    "web": {
+      "context": "browser",
+      "publicUrl": "./",
+      "engines": {
+        "browsers": "last 2 versions, > 0.5%, not dead"
+      }
+    }
   },
   "devDependencies": {
-    "html-includes": "^4.4.1",
-    "parcel": "^2.3.2"
+    "parcel": "^2.3.2",
+    "posthtml-include": "^1.7.2",
+    "rimraf": "^3.0.2"
   }
 }
