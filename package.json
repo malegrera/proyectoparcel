@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "proyectoparcel",
   "source": "src/index.html",
   "scripts": {
     "parcel:serve": "parcel src/index.html --target web -p 8123 --open",
