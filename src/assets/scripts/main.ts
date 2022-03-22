@@ -1,4 +1,4 @@
-import {nombre, i as ranas, saludar} from "./otro";
+import {nombre, i as ranas, fecha} from "./otro";
 
 const mensaje:string = `<p>Hola ${nombre}</p>`;
 const mensaje2:string = "<p>Hello World again!</p>";
@@ -12,4 +12,4 @@ for (let i=1; i<=ranas; i++) {
     p.insertAdjacentHTML('afterbegin',`<i class="fa-solid fa-${i}"></i> `)
 }
 
-saludar();
+fecha();
