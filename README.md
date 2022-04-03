@@ -20,6 +20,7 @@ Añade un fichero `.gitignore` para: sass,node,windows,vscode
 ## Dependencias:  
 + "@parcel/transformer-sass": "^2.3.2"
 + "autoprefixer": "^10.4.4",
++ "bootstrap": "^5.1.3",
 + "npm-run-all": "^4.1.5",
 + "parcel": "^2.3.2",
 + "postcss-preset-env": "^7.4.3",
@@ -28,5 +29,4 @@ Añade un fichero `.gitignore` para: sass,node,windows,vscode
 + "stylelint": "^14.6.1",
 + "stylelint-config-standard": "^25.0.0",
 + "stylelint-config-standard-scss": "^3.0.0"  
-## Dependencias de desarrollo:  
 + "@fortawesome/fontawesome-free": "^6.1.0"
