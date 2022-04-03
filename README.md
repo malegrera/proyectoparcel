@@ -1,7 +1,10 @@
 # proyectoparcel
+
+## Instalar Parcel
 [Crear webapp con Parcel](https://parceljs.org/getting-started/webapp/)  
-En una carpeta, inicia el proyecto Parcel instalándolo:
-`npm install --save-dev parcel`  
+En una carpeta, inicia el proyecto Parcel instalándolo:  
+`npm init`  
+`npm install --save-dev parcel`  o `npm i -D parcel`  
 Crea la siguiente estructura de carpetas y ficheros:
 ```
 /src
