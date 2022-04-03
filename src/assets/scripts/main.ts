@@ -1,3 +1,4 @@
+import 'bootstrap';
 import {nombre, i as ranas, fecha} from "./otro";
 
 const mensaje:string = `<p>Hola ${nombre}</p>`;
