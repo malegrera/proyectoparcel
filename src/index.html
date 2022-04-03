@@ -12,13 +12,74 @@
 
 <body>
     <include src="./views/header.html"></include>
-    <main class="container">
+    <div class="container my-5">
         <h2 class="fa-solid"><i class="fa-solid fa-user"></i> Hello Parcel 2 </h2>
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
             <strong>Holy guacamole!</strong> You should check in on some of those fields below.
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-    </main>
+    </div>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2 col-md-12 text-start">
+                1 of 3
+            </div>
+            <div class="col-lg-2 col-md-12 text-center">
+                2 of 3
+            </div>
+            <div class="col col-lg-2 col-md-12 text-end">
+                3 of 3
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2 col-md-12 text-end">
+                1 of 3
+            </div>
+            <div class="col col-lg-2 col-md-12 text-center">
+                2 of 3
+            </div>
+            <div class="col col-lg-2 col-md-12">
+                3 of 3
+            </div>
+        </div>
+        <div class="row justify-content-md-center my-5">
+            <div class="dropdown col col-lg-2 col-md-12">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+    </div>
     <include src="./views/footer.html"></include>
 </body>
 
