@@ -54,9 +54,6 @@ Para evitar errores y hacer cumplir las reglas fijadas en los estilos.
 + "**@fortawesome/fontawesome-free**": "^6.1.0"  
 [@fortawesome/fontawesome-free](https://www.npmjs.com/package/@fortawesome/fontawesome-free)  
 Biblioteca de iconos.  
-+ "**PurgeCSS**"  
-[purgecss](https://www.npmjs.com/package/purgecss)  
-Elimina los selectores no utilizados de su css, lo que da como resultado archivos css más pequeños.  
 ## Fichero package.json
 ```
 {
